@@ -42,3 +42,21 @@ pip install requests
 ### 3. Configure API keys
 
 Create a `.env` file or directly set these in `gas_bot.py`:
+
+### 4. Run the bot
+```bash
+python gas_bot.py
+```
+
+## Getting API Keys
+
+- **Telegram Token** — Message [@BotFather](https://t.me/botfather) on Telegram, use `/newbot`
+- **Etherscan API Key** — Register free at [etherscan.io](https://etherscan.io) → My Profile → API Keys
+
+## Important
+
+Never commit your API keys to GitHub. Add a `.gitignore` file to exclude them.
+
+## License
+
+MIT
